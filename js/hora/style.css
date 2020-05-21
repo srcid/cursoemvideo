@@ -1,0 +1,32 @@
+body {
+    background-color: #387cd6;
+    font: normal 20pt Arial;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+div#msg {
+    text-align: center;
+}
+
+div#foto {
+    text-align: center;
+}
+
+footer {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+}

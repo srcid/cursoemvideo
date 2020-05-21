@@ -1,0 +1,39 @@
+body {
+    background-color: #5bba76;
+    font: normal 20pt Arial;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+input#check-button {
+    padding: 15px;
+}
+
+input#clear-button {
+    padding: 15px;
+}
+
+div#res {
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(184, 184, 184, 0.705);
+}
+
+footer {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+}

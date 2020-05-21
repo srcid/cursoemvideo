@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div#area {
+            font: normal 20pt arial;
+            background-color: green;
+            color:white;
+            width: 200px;
+            height: 200px;
+            line-height: 190px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="area">
+        Interaja!
+    </div>
+
+    <script>
+        let a = window.document.getElementById('area')
+        a.addEventListener('click', wasClicked)
+        a.addEventListener('mouseover', mouseGotInside)
+        a.addEventListener('mouseleave', mouseGotOut)
+
+        function wasClicked() {
+            let prev = a.innerHTML
+            a.innerHTML = '<strong>clicou</strong>'
+            a.style.backgroundColor = 'rgb(206, 74, 74)'
+            setTimeout(function(){ a.innerHTML = prev
+                                   a.style.backgroundColor = 'green'
+            }, 250)  
+        }
+
+        function mouseGotInside() {
+            a.innerHTML = '<i>Mouse got inside the box</i>'
+            a.style.backgroundColor = 'rgb(66, 135, 245)'
+        }
+
+        function mouseGotOut() {
+            window.alert('Mouse has got out of box!')
+            a.innerHTML = 'Interaja!'
+            a.style.backgroundColor = 'green'
+        }
+
+    </script>
+
+</body>
+</html>

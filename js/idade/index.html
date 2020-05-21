@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Qual a sua idade?</h1>
+    </header>
+    
+    <section>
+        <div id="formulary-conteiner">
+            <form>
+                <p>Ano de Nascimento: 
+                    <input type="number" name="get-year" id="get-year">
+                </p>
+                <p>Sexo: 
+                    <input type="radio" name="get-gen" id="gen-masc">
+                    <label for="gen-masc">Masculino</label>
+                    <input type="radio" name="get-gen" id="gen-fema">
+                    <label for="gen-feme">Feminino</label>
+                </p>
+                <p style="text-align: center;">
+                    <input id="check-button" type="button" value="VERIFICAR" onclick="check()">
+                    <input id="clear-button" type="reset" value="LIMPAR" onclick="formClearner()">
+                </p>
+            </form>
+        </div>
+        <div id="res">
+            Fill in the informations on top to see the result
+        </div>
+    </section>
+
+    <footer><p>&copy; CursoemVideo</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
