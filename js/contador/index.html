@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Steps counter</h1></header>
+    
+    <section>
+        <div>
+            <form id="form">
+                <div>
+                    <label for="initial_value">Inicio :</label>
+                    <input type="number" name="initial_value" id="initial_value" min="1" value=1 required>
+                </div>
+                <div>
+                    <label for="max_value">Máximo: </label>
+                    <input type="number" name="max_value" id="max_value" min="1" value="1" required>
+                </div>
+                <div>
+                    <label for="step">Passo: </label>
+                    <input type="number" name="step" id="step" min="1" value="1" required>
+                </div>
+                <button id="submit_button" type="button">Começar</button>
+                <button id="reset_button" type="reset">Limpar</button>
+            </form>
+        </div>
+        <div id=res>
+
+        </div>
+    </section>
+
+    <footer><p>&copy; CursoemVideo</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
