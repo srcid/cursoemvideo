@@ -59,7 +59,7 @@ function check() {
 }
 
 function formClearner() {
-    document.body.style.backgroundColor = ' #5bba76'
+    document.body.style.backgroundColor = '#5bba76'
     let res = document.getElementById('res')
     res.innerHTML = 'Fill in the informations on top to see the result'
 }
