@@ -1,0 +1,39 @@
+body {
+    background-color: #387cd6;
+    font: normal 20pt Arial;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+footer {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+}
+
+div#form_conteiner {
+    text-align: center;
+    padding: 15px;
+}
+
+div.num_conteiner {
+    color: white;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 20px 10px 20px;
+    padding: 10px 18px 10px;
+    border: 5px solid #00911f;
+    background-color: #0000b0;
+}
